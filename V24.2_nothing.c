@@ -9,9 +9,9 @@
 #define COLOR_PINK 8
 #define COLOR_BROWN 9
 #define COLOR_BEIGE 10
-#define COLOR_BEIGEclair 11
+#define COLOR_BEIGE_LIGHT 11
 
-#define MAXROOM 100
+#define MAX_ROOM 100
 
 typedef struct{
     int x;
@@ -988,7 +988,7 @@ generateroom (int seed, int *maxroom, room * tabroom, door * prevdoor,
 	else if (searchneardoor (tabdoor, *prevdoor, *doorcount) > 0)
 		{
 			newroom.numofdoor = rand () % 3 + 1;
-			while (newroom.numofdoor > MAXROOM - *roomcount)
+			while (newroom.numofdoor > MAX_ROOM - *roomcount)
 				{
 					newroom.numofdoor--;
 				}
@@ -1096,7 +1096,7 @@ generateroom (int seed, int *maxroom, room * tabroom, door * prevdoor,
 	else
 		{
 			newroom.numofdoor = rand () % 3 + 2;
-			while (newroom.numofdoor > MAXROOM - *roomcount)
+			while (newroom.numofdoor > MAX_ROOM - *roomcount)
 				{
 					newroom.numofdoor--;
 				}
@@ -1816,7 +1816,7 @@ int main(void){
     init_color(COLOR_PINK, 1000, 375, 500);
     init_color(COLOR_BROWN, 300, 200, 0);
     init_color(COLOR_BEIGE,250, 200, 100);
-    init_color(COLOR_BEIGEclair,300, 200, 100);
+    init_color(COLOR_BEIGE_LIGHT,300, 200, 100);
     
     //background menu
     init_pair(1,COLOR_WHITE,COLOR_BLUE);
@@ -1833,13 +1833,13 @@ int main(void){
     //time out
     init_pair(7,COLOR_RED,COLOR_BEIGE);
     //inventory background
-    init_pair(8,COLOR_WHITE,COLOR_BEIGEclair);
+    init_pair(8,COLOR_WHITE,COLOR_BEIGE_LIGHT);
     //inventory select
     init_pair(9,COLOR_WHITE,COLOR_RED);
 
 //change color
     //room background
-    init_pair(10,COLOR_WHITE,COLOR_BEIGEclair);
+    init_pair(10,COLOR_WHITE,COLOR_BEIGE_LIGHT);
     //ennemy
     init_pair(11,COLOR_WHITE,COLOR_RED);
     //object
@@ -1878,12 +1878,12 @@ int main(void){
     // ...
     
     //init room
-    int maxroom= MAXROOM;
+    int maxroom= MAX_ROOM;
     int roomcount= 0;
     int doorcount=0;
     room *tabroom;
     door *tabdoor;
-    tabdoor = malloc(sizeof(door) * MAXROOM * 4);
+    tabdoor = malloc(sizeof(door) * MAX_ROOM * 4);
     if (tabdoor == NULL) {
         exit(1);
         }
