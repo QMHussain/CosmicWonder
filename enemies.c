@@ -216,7 +216,7 @@ void enemySpawn(int number, Room* b){
         }
         b->tab_enemy[i] = defEnemy(a);
         if (b->xmin < 0 && b->xmax > 0){
-            b->tab_enemy[i]->coordinates.x = ((b->xmax - b->xmin) / 2 + b->xmin) + (random() % 8 - 4);
+            b->tab_enemy[i]->coordinates.x = ((b->xmax - b->xmin) / 2 + b->xmin) + (rand() % 8 - 4);
             b->tab_enemy[i]->coordinates.y = ((b->ymin - b->ymax) / 2 + b->ymax) + (rand() % 8 - 4);
         }
         else if (b->ymin < 0 && b->ymax > 0){
