@@ -1,0 +1,15 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     enemies
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _defEnemy, symObjAddr: 0x0, symBinAddr: 0x100002A30, symSize: 0x320 }
+  - { offsetInCU: 0xB1, offset: 0xB1, size: 0x8, addend: 0x0, symName: _defEnemy, symObjAddr: 0x0, symBinAddr: 0x100002A30, symSize: 0x320 }
+  - { offsetInCU: 0x111, offset: 0x111, size: 0x8, addend: 0x0, symName: _max, symObjAddr: 0x320, symBinAddr: 0x100002D50, symSize: 0x30 }
+  - { offsetInCU: 0x147, offset: 0x147, size: 0x8, addend: 0x0, symName: _absolute_value, symObjAddr: 0x350, symBinAddr: 0x100002D80, symSize: 0x30 }
+  - { offsetInCU: 0x16F, offset: 0x16F, size: 0x8, addend: 0x0, symName: _enemySpawn, symObjAddr: 0x380, symBinAddr: 0x100002DB0, symSize: 0x3D0 }
+  - { offsetInCU: 0x1EE, offset: 0x1EE, size: 0x8, addend: 0x0, symName: _printEnemy, symObjAddr: 0x750, symBinAddr: 0x100003180, symSize: 0x140 }
+  - { offsetInCU: 0x240, offset: 0x240, size: 0x8, addend: 0x0, symName: _checkRange, symObjAddr: 0x890, symBinAddr: 0x1000032C0, symSize: 0x290 }
+  - { offsetInCU: 0x279, offset: 0x279, size: 0x8, addend: 0x0, symName: _moveMob, symObjAddr: 0xB20, symBinAddr: 0x100003550, symSize: 0x8D0 }
+  - { offsetInCU: 0x34F, offset: 0x34F, size: 0x8, addend: 0x0, symName: _mobHit, symObjAddr: 0x13F0, symBinAddr: 0x100003E20, symSize: 0x50 }
+  - { offsetInCU: 0x384, offset: 0x384, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1440, symBinAddr: 0x100003E70, symSize: 0x56 }
+...

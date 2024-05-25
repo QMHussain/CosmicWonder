@@ -1,0 +1,8 @@
+id nom type range dmg poids
+@0 knife 2 1 2 1
+@1 sword 2 3 5 2
+@2 hammer 2 2 10 5
+@3 light_saber 2 3 20 5
+@4 pistol 1 100 3 2
+@5 light_pistol 1 100 15 5
+@6 sniper 1 100 30 10

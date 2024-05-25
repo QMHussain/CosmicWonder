@@ -1,0 +1,18 @@
+id nom poids single_use max_stack augmentation type
+@0 healing_potion 1 1 5 hp | A strange substance that makes you feel better.
+@1 speed_potion 1 1 2 speed | This substance makes you go faster, I wander what's in it.
+@2 strength_potion 1 2 10 strength | With this, you can hit harder, even with ranged weapons. Don't ask me how I don't know.
+@3 armor_potion 1 1 2 armor | Damage suffered feels weaker after drinking this thing.
+@4 scrap 2 0 64 NONE | Can be useful if you know what to do with it.
+@5 chip 2 0 32 NONE | Found on a robot but what use can you find in it?
+@6 motherboard 3 0 8 NONE | Maybe craft something out of this.
+@7 wire 1 0 64 NONE | No use unless you can craft things.
+@8 battery 2 0 16 NONE | Some weapons may need this, or you may need it to craft electric devices.
+@9 alien_bone 1 0 32 NONE | Well this is a bit scary.
+@10 alien_organ 2 0 8 NONE | This is actually scary.
+@11 alien_brain 3 0 1 NONE | What are you doing with this??
+@12 bullet 1 1 64 NONE | Amo for ranged weapons.
+@13 jelly 1 0 64 NONE | Why did you take it? It's disgusting.
+
+
+

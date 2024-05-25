@@ -1,0 +1,14 @@
+Salles spéciales :
+
+* Salle des coffres : un ou plusieurs coffres chacun gardé par au moins un monstre
+
+* Salle histoire : pour faire avancer le jeu
+
+* Salle raid : vagues d'ennemis
+
+* Salle piège : pancarte à l'entrée, pièges (dmg, monstres cachés, coffre piège, faux pnj)
+
+
+Histoire :
+
+* J'ai pas d'inspi.

@@ -1,0 +1,7 @@
+id nom poids shield
+@0 old_helmet 2 5 | Will do the job but only for some time.
+@1 helmet 3 10 | With this your head is safe, at least I hope so.
+@2 solid_helmet 5 15 | This is the best helmet you can find.
+@3 old_armor 5 7 | You couldn't find worse.
+@4 robot_armor 10 12 | Maybe robots won't recognise you with this, just kidding.
+@5 fancy_armor 15 20 | Who can stop you now ???
